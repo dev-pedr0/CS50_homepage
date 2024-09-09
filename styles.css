@@ -1,0 +1,164 @@
+body {
+    color: white;
+    background-color: #0d4a45;
+}
+
+.head {
+    background-image: url("logo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+    padding: 20px;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.menu li {
+    border: 4px solid black;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu li a {
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    background-color: #0d3245;
+    cursor: pointer;
+}
+
+#sobre {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#sobre h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sobre-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre-conteudo p {
+    margin: 0;
+    flex: 1;
+    text-align: justify;
+}
+
+.sobre-conteudo img {
+    max-width: 40%;
+    height: auto;
+}
+
+#projetos {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#projetos h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.projeto-item h3{
+    text-align: center;
+}
+
+.projeto-item img{
+    width: 100%;
+    height: auto;
+}
+
+#contato {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contato h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contato-container {
+    display: flex;
+    gap: 20px;
+}
+
+.contato-item {
+    flex: 1;
+    background-color: #1ca196;
+    border-radius: 15px;
+    padding: 35px 0px 35px 40px;
+    align-self: center;
+}
+
+.contato-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contato-item p {
+    margin: 0;
+}
+
+.contato-endereço {
+    flex: 1;
+    background-color: #1ca196;
+    border-radius: 15px;
+    padding: 10px 0px 10px 40px;
+    align-self: center;
+}
+
+#rolar-cima {
+    font-size: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px 20px;
+    background-color: #333;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
